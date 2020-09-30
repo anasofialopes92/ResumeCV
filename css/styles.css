@@ -10334,7 +10334,7 @@ body {
 
 }
 .projects-section .featured-text {
-  padding: 2rem;
+  padding: 1rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -10343,7 +10343,7 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 1.5rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
@@ -10385,6 +10385,40 @@ body {
     width: 30%;
   }
 }
+
+@media (min-width: 992px){
+  .title-sections{
+    display: none;
+
+  }
+  
+}
+
+@media (max-width: 992px){
+  .img-interes{
+    display: none;
+    text-align: 
+  }
+  .title-sections{
+    color: #64a19d;
+    text-align: center;
+  }
+
+}
+
+
+.projects-section .project-text {
+  padding: 5rem;
+}
+.interests-section  hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 30%;
+}
+.item-interes{
+  padding-bottom: 1rem;
+}
+
 
 .signup-section {
   padding: 6rem 0;
@@ -10538,7 +10572,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
-.interests{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+.interests-section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
